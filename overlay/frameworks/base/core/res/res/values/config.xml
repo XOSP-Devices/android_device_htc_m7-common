@@ -246,7 +246,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+    <!-- integer name="config_deviceHardwareWakeKeys">64</integer -->
 
     <!-- Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
@@ -264,7 +264,7 @@
     <bool name="config_useSystemClockforRotationSensor">true</bool>
 
     <!-- Doze mode -->
-    <string name="config_dozeComponent" translatable="false">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_dozeComponent" translatable="true">com.android.systemui/com.android.systemui.doze.DozeService</string>
     <integer name="config_screenBrightnessDoze">17</integer>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
